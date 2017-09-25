@@ -19,7 +19,4 @@ Algoritmos y Programacion I ( 75.40) Wachenchauzer 1er Parcialito
 
 3. Escribir una funcion que dada una matriz representada como una lista de listas de numeros ( donde cada sublista representa una fila)
 		devuelva una lista con los maximos de cada columna 
-		ej:  maximos_columna( [ [1, 2, 8, 4],
-														[6, 7, 3, 3],			-> [6, 7, 8, 9]
-														[6, 5, 4, 9] ] )  
-    
+		ej:  maximos_columna( [ [1, 2, 8, 4], [6, 7, 3, 3], [ 6, 5, 4, 9] ] ) --> [ 6, 7, 8, 9]
