@@ -28,7 +28,7 @@ def snake_a_camel(snake_case):
     palabras = []
     
     for palabra in listas_palabras:
-        palabras.append( palabra[0]+palabra[1:] )
+        palabras.append( palabra[0].upper()+palabra[1:] )
     
     return "".join(palabras)
         
