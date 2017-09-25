@@ -1,0 +1,25 @@
+Algoritmos y Programacion I ( 75.40) Wachenchauzer 1er Parcialito
+
+1. Dado el siguiente codigo en python
+	for x in range(-33, 99, 7):
+		print("valor al inicio de la iteracion:",x)
+    x = ( x // 2 ) - 3
+    print ("valor al final de la iteracion:",x)
+    
+    a. Hacer una tabla con los valores de x iniciales y finales de cada iteracion. En caso del que el siglo no termine nunca
+    colocar una fila con "... ..."
+    
+    b.transformar el ciclo anterior a un ciclo While que implemente el mismo comportamiento
+
+2. El estilo de escritura SNAKE_CASE permite representar un conjunto de palabras separandolas por un guion bajo, mientras que 
+   el estilo CamelCase las representa sin separadores, ultilizando las letras mayusculas para la primera letra de cada palabra.
+	 
+	 Se pide realizar una funcion que reciba una cadena escrita en SNAKE_CASE y devuelva la representacion en CamelCase:
+	 ej: snake_a_camel("alan_turing") -> "AlanTuring" , snake_a_camel("hoy_es_el_parcial") -> "HoyEsElParcial"
+
+3. Escribir una funcion que dada una matriz representada como una lista de listas de numeros ( donde cada sublista representa una fila)
+		devuelva una lista con los maximos de cada columna 
+		ej:  maximos_columna( [ [1, 2, 8, 4],
+														[6, 7, 3, 3],			-> [6, 7, 8, 9]
+														[6, 5, 4, 9] ] )  
+    
