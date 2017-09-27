@@ -1,3 +1,6 @@
+#Leonel R.
+#Facultad de Ingenieria Universidad de Buenos Aires
+
 #1.
 def juntada_amigos(amigos):
 	""" retorna un diccionario de que dias pueden juntarse 
@@ -20,6 +23,36 @@ def juntada_amigos(amigos):
 
 	return dias
 
+#2.
 
+class LIBRO:
+	def __init__(self,nombre,autor):
+		self.nombre = nombre
+		self.autor = autor
+
+class BIBLIOTECA:
+	def __init__(self,max_libros):
+		self.capacidad_maxima = max_libros
+		self.len = 0 
+		self.libros = []
+	
+	def agregar(self,libro):
+		#Pregunta si puedo guardad un libro
+		if not ( self.len < self.capacidad_maxima ):
+			return 
+		
+		self.libros.append(libro)
+		self.len += 1
+	
+	def sacar_libro(self,nombre_libro):
+		for i,libro in enumerate(self.libros):
+			if libro.nombre == nombre_libro:
+				return self.libro.pop(i).nombre
+		return "libro no se encuentra en la biblioteca"
+	
+	def obtener_libros_autor(self,autor):
+		return [ libro.nombre for libro in self.libros if libro.autor == autor ]
+		
+		
 
 
