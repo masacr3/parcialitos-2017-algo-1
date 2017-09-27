@@ -1,0 +1,21 @@
+Algoritmos y Programacion I .2do parcialito
+
+1.  Un grupo de amigos quiere juntarse a cenar pero tienen todos calendarios muy ajustados y les es dificil ver que dias pueden juntarse
+    todos. Se pide escribir una funcion que reciba un diccionario con los nombres de cada persona y que como valor asociado tenga los dias
+    del mes en los que esa persona no puede juntarse( una lista de numeros que puede ser del 1 al 31)  que devuelva un diccionario con 
+    todos los dias com clave ( tambien del 1 al 31 ) y como valor cuantos amigos pueden asistir cada dia
+    
+2.  Se tiene un archivo llamado socios.cvs, con muchas lineas ( es decir , no  no entra en memoria ) de formato:
+  dni,nombre,edad,estado_civil_tiene_empleo,termino_secundario, donde tiene_empleo y termino_el_secundario son 0 si es falso, y 1 si es 
+  verdadero.Escribir un programa que imprima ( como se quiera) todos los datos de los no graduados del secundario, con empleo y
+  que sean menores de 35 años. El archivo debe cerrarse en todos los casos tanto cuando finaliza la ejecucion normalmente como si hay algun
+  error
+  
+3.  Se quiere modelar una biblioteca de libros. Crear las clases Biblioteca y Libro, sabiendo que:
+    *La biblioteca tiene una capacidad limitada para libros, que se define al crearla
+    *Los libros tienen informacion del nombre del libro y el de su autor
+    
+    Deben poder realizarse las siguientes operaciones:
+    *Agregar un libro a la biblioteca
+    *Sacar un libro de la biblioteca por nombre de libro
+    *Obtener una lista con todos los libros de autor
